@@ -40,7 +40,25 @@ get_header(); ?>
     </div>
             </div>
             <div class="col-md-9">
-            
+                <h2>Shop By Category</h2>
+            <div class="main_card">
+                <div class="sub_card">
+                    <img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt="">
+                    <p>Fruits</p>
+                </div>
+                <div class="sub_card">
+                    <img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt="">
+                    <p>Fruits</p>
+                </div>
+                <div class="sub_card">
+                    <img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt="">
+                    <p>Fruits</p>
+                </div>
+                <div class="sub_card">
+                    <img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt="">
+                    <p>Fruits</p>
+                </div>
+            </div>
             </div>
         </div>
     </div>
