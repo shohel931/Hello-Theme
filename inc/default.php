@@ -44,3 +44,7 @@ function logo_customize($wp_customize){
 
 }
 add_action('customize_register', 'logo_customize');
+
+
+// Thumbnail Image Area
+add_theme_support('post-thumbnails', array('page', 'post'));
