@@ -40,24 +40,7 @@ get_header(); ?>
     </div>
             </div>
             <div class="col-md-9">
-            <h2 class="section-title">Best Sellers</h2>
-    <div class="products">
-      <div class="card">
-        <h3>Organic Carrot</h3>
-        <p>$1.50</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="card">
-        <h3>Strawberry Pack</h3>
-        <p>$2.99</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="card">
-        <h3>Fresh Milk</h3>
-        <p>$0.99</p>
-        <button>Add to Cart</button>
-      </div>
-    </div>
+            
             </div>
         </div>
     </div>
