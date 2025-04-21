@@ -191,14 +191,7 @@ body{
     color: red;
 }
 
-/* Custom Scroll Bar
-html::-webkit-scrollbar{
-    width: 0.5rem;
-  }
-  html::-webkit-scrollbar-thumb{
-    background: transparent;
-  }
-  html::-webkit-scrollbar-track{
-    background: var(--text-color);
-    border-radius: 5rem;
-  } */
+/* Home Page */
+#home_area1{
+    padding-top: 100px;
+}

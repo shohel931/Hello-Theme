@@ -11,8 +11,8 @@ get_header(); ?>
         <div class="row">
             <div class="col-md-12">
                 <div class="text_area">
-            <h1>Eat Fresh. Live Healthy.</h1>
-             <p>100% Organic & Farm-fresh products</p>
+                <h1>Eat Fresh. Live Healthy.</h1>
+                <p>100% Organic & Farm-fresh products</p>
             <button>Shop Now</button>
                 </div>
             <div class="image_are">
