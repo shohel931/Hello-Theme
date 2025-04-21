@@ -10,15 +10,16 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+                <div class="main_area">
                 <div class="text_area">
                 <h1>Eat Fresh. Live Healthy.</h1>
                 <p>100% Organic & Farm-fresh products</p>
             <button>Shop Now</button>
                 </div>
             <div class="image_are">
-                <img src="<?php echo get_template_directory_uri(). '/img/image.png' ?>" alt="">
+                <img src="<?php echo get_template_directory_uri(). '/img/bol.jpg' ?>" alt="">
             </div>
-    
+            </div>
             </div>
         </div>
     </div>

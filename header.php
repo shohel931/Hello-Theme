@@ -9,7 +9,10 @@
 <body <?php body_class(); ?>>
 
 <header id="header_area">
-    <div class="main_header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <div class="main_header">
         <div class="logo_area">
             <a href="<?php echo home_url(); ?>"><img src="<?php echo get_theme_mod('logo_setting'); ?>" alt=""></a>
         </div>
@@ -29,6 +32,10 @@
             </form>
         </div>
     </div>
+            </div>
+        </div>
+    </div>
+  
 </header>
     
 

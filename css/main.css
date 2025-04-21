@@ -194,4 +194,11 @@ body{
 /* Home Page */
 #home_area1{
     padding-top: 100px;
+    background: #F3FDEC;
+}
+.main_area{
+    display: flex;
+}
+.image_are img{
+    background: #F3FDEC;
 }
