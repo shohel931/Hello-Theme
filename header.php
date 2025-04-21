@@ -28,6 +28,12 @@
                 <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
         </div>
+
+        <div class="cart_area">
+            <p>Cart is empty</p>
+            <button class="close_cart">X</button>
+            <div class="cart_items">
+                <p>No items in cart</p>
     </div>
 </header>
     
