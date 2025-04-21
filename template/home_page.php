@@ -43,19 +43,19 @@ get_header(); ?>
                 <h2>Shop By Category</h2>
             <div class="main_card">
                 <div class="sub_card">
-                    <img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt="">
+                    <a href=""><img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt=""></a>
                     <p>Fruits</p>
                 </div>
                 <div class="sub_card">
-                    <img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt="">
+                <a href=""><img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt=""></a>
                     <p>Fruits</p>
                 </div>
                 <div class="sub_card">
-                    <img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt="">
+                <a href=""><img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt=""></a>
                     <p>Fruits</p>
                 </div>
                 <div class="sub_card">
-                    <img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt="">
+                <a href=""><img src="<?php echo get_template_directory_uri(). '/img/smapl.jpg' ?>" alt=""></a>
                     <p>Fruits</p>
                 </div>
             </div>
