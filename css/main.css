@@ -205,3 +205,16 @@ body{
 .main_card{
     display: flex;
 }
+.main_card .sub_card img{
+    width: 40%;
+    clip-path: circle(50%);
+    background: #FEF7E5;
+}
+.main_card .sub_card p{
+    padding: 0 20px;
+}
+.sub_card {
+    width: 17%;
+    text-align: center;
+}
+
