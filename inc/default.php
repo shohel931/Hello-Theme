@@ -47,4 +47,4 @@ add_action('customize_register', 'logo_customize');
 
 
 // Thumbnail Image Area
-add_theme_support('post-thumbnails', array('page', 'post'));
+add_theme_support('post-thumbnails', array('page', 'post', 'custom_product'));
