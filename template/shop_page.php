@@ -5,26 +5,33 @@
 
 get_header(); ?>
 
-<div class="shop-page">
-    <h1><?php the_title(); ?></h1>
-    
-    <div class="products">
-        <?php if ( have_posts() ) : ?>
-            <?php while ( have_posts() ) : the_post(); ?>
-                <div class="product">
-                    <a href="<?php the_permalink(); ?>">
-                        <?php if ( has_post_thumbnail() ) : ?>
-                            <?php the_post_thumbnail('medium'); ?>
-                        <?php endif; ?>
-                        <h2><?php the_title(); ?></h2>
-                    </a>
-                    <p><?php echo wc_get_product(get_the_ID())->get_price_html(); ?></p>
-                </div>
-            <?php endwhile; ?>
-        <?php else : ?>
-            <p><?php esc_html_e( 'No products found', 'hellotheme' ); ?></p>
-        <?php endif; ?>
+<section id="product_area">
+    <div class="container">
+      <div class="row">
+        <?php 
+        query_posts('post_type=custom_product&post_status=publish&posts_per_page=0&order=ASC&paged='. get_query_var('post')); 
+
+        if(have_posts()) :
+          while(have_posts()) : the_post(); 
+        ?>
+        <div class="col-md-4">
+          <div class="child_service">
+          <h2><?php the_title(); ?></h2>
+          <?php echo the_post_thumbnail('custom_product') ?>
+          <?php the_excerpt(  ); ?>
+            <div class="price"><?php echo get_post_meta(get_the_ID(), 'product_price', true); ?></div>
+            <div class="button_area">
+              <a href="<?php echo get_post_meta(get_the_ID(), 'product_link', true); ?>" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+
+        <?php 
+          endwhile;
+          endif;
+        ?>
+      </div>
     </div>
-</div>
+  </section>
+
 
 <?php get_footer(); ?>
