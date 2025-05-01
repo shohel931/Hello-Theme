@@ -191,33 +191,3 @@ body{
 }
 
 /* Home Page */
-#home_area1{
-    padding-top: 100px;
-    background: #F3FDEC;
-}
-.main_area{
-    display: flex;
-}
-.image_are img{
-    background: #F3FDEC;
-}
-.main_card{
-    display: flex;
-}
-.main_card .sub_card img{
-    width: 40%;
-    clip-path: circle(50%);
-    background: #FEF7E5;
-}
-.main_card .sub_card p{
-    padding: 0 20px;
-}
-.sub_card {
-    width: 17%;
-    text-align: center;
-}
-
-.categories .card{
-    margin: 20px 0;
-    padding: 20px 0;
-}
