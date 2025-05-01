@@ -14,7 +14,9 @@ get_header(); ?>
                 <p>Your one-stop shop for fresh produce, dairy, and more!</p>
                 <a href="#" class="btn btn-primary">Shop Now</a>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <img src="<?php echo get_template_directory_uri(). '/img/bol.jpg' ?>" alt="">
+            </div>
         </div>
     </div>
 </section>
