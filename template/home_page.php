@@ -6,6 +6,20 @@
 get_header(); ?>
 
 
+<section id="hero_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Welcome to Our Grocery Store</h1>
+                <p>Your one-stop shop for fresh produce, dairy, and more!</p>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+</section>
+
+
 
 
 
