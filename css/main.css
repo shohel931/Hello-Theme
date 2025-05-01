@@ -191,3 +191,13 @@ body{
 }
 
 /* Home Page */
+#hero_area{
+    padding-top: 100px;
+}
+#hero_area .col-md-6 h1{
+    font-size: 40px;
+    color: #007BFF;
+}
+#hero_area .col-md-6 img{
+    width: 50%;
+}
